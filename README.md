@@ -1,4 +1,4 @@
-# Metabopipeline
+# Metabopipeline - Metabolomics data bioinformatics pipeline and data science notebooks
 
 This pipeline aims to analyse metabolomics data, from the raw files to statistical analysis.
 
