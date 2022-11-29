@@ -12,7 +12,7 @@ The pipeline is divided in three parts :
 
 This part allows to easily convert files from Agilent vendor format *.d* to open-source format *.mzML*.
 
-Corresponding [README](https://github.com/maxvincent24/metabopipeline/tree/main/msconvert).
+Corresponding [README](https://github.com/OMB-IARC/MetaboPipeline_bioinfo/tree/main/msconvert).
 
 
 ## 2 - Run metaboigniter pipeline
@@ -26,7 +26,7 @@ This part allows to preprocess <code>.mzML</code> files with **metaboigniter** p
 
 This part allows to launch a JupyterLab session, with existing notebooks to analyse peak tables.
 
-Corresponding [README](https://github.com/maxvincent24/metabopipeline/tree/main/notebooks).
+Corresponding [README](https://github.com/OMB-IARC/MetaboPipeline_bioinfo/tree/main/notebooks).
 
 
 
