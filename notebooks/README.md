@@ -53,7 +53,7 @@ First, it will pull and build the Docker image based on the image on [DockerHub]
 
 Then, it will clone the repository containing the notebooks [link](https://github.com/OMB-IARC/MetaboPipeline_notebooks).
 
-Finally, it will run the Docker image, launching a JupyterLab environment to use the notebooks. On your terminal will appear a URL of this form <code>http://127.0.0.1:8888/lab?token=*token*</code> that you will have to paste in a browser to launch the JupyterLab session.
+Finally, it will run the Docker image, launching a JupyterLab environment to use the notebooks. On your terminal will appear a URL of this form <code>http://127.0.0.1:8888/lab?token=TOKEN</code> that you will have to paste in a browser to launch the JupyterLab session.
 
 
 
