@@ -71,7 +71,7 @@ First, it will pull the Docker image from [DockerHub](https://hub.docker.com/r/m
 
 Then, it will clone the repository containing the notebooks [link](https://github.com/OMB-IARC/MetaboPipeline_notebooks).
 
-Finally, it will run the Singularity image, launching a JupyterLab environment to use the notebooks. On your terminal will appear a URL of this form <code>http://127.0.0.1:8888/lab?token=*token*</code> that you will have to paste in a browser to launch the JupyterLab session.
+Finally, it will run the Singularity image, launching a JupyterLab environment to use the notebooks. On your terminal will appear a URL of this form <code>http://127.0.0.1:8888/lab?token=TOKEN</code> that you will have to paste in a browser to launch the JupyterLab session.
 
 
 
@@ -89,7 +89,7 @@ sbatch slurm_notebooks.sb <container_choice>
 
 The argument <code>container_choice</code> is either "docker" or "singularity", depending on which framework you want to use.
 
-Depending on the container choice, it will run either the file <code>run_commands_docker.sh</code> or <code>run_commands_singularity.sh</code>. In the <code>.out</code> file of your slurm job, you will see a URL of this form <code>http://127.0.0.1:8888/lab?token=*token*</code> that you will have to paste in a browser to launch the JupyterLab session.
+Depending on the container choice, it will run either the file <code>run_commands_docker.sh</code> or <code>run_commands_singularity.sh</code>. In the <code>.out</code> file of your slurm job, you will see a URL of this form <code>http://127.0.0.1:8888/lab?token=TOKEN</code> that you will have to paste in a browser to launch the JupyterLab session.
 
 
 
